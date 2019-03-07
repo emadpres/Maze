@@ -49,11 +49,11 @@ endif()
 # add cross-platforms source files and header files 
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
-     Classes/HelloWorldScene.cpp
+        Classes/Maze.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
-     Classes/HelloWorldScene.h
+        Classes/Maze.h
      )
 
 if(ANDROID)
@@ -112,7 +112,7 @@ endif()
 set(all_code_files
     ${GAME_HEADER}
     ${GAME_SOURCE}
-    )
+        Classes/SquareCell.cpp Classes/SquareCell.h)
 if(NOT ANDROID)
     add_executable(${APP_NAME} ${all_code_files})
 else()
