@@ -1,3 +1,4 @@
+
 # MazeGenerator
 
 ### Setup
@@ -5,11 +6,11 @@
 
 
 ### Todo:
- [ ] Backtrack Maze Generator
- [ ] Sigma: [Hexagonal](https://www.redblobgames.com/grids/hexagons/) cells ([Example](http://www.mazegenerator.net/))
- [ ] Infinite Maze
- [ ] Delta: Triangular cells ([Example](http://www.mazegenerator.net/))
- [ ] Voronoi cells ([Example](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/))
+ * [ ] Backtrack Maze Generator
+ * [ ] Sigma: [Hexagonal](https://www.redblobgames.com/grids/hexagons/) cells ([Example](http://www.mazegenerator.net/))
+ * [ ] Infinite Maze
+ * [ ] Delta: Triangular cells ([Example](http://www.mazegenerator.net/))
+ * [ ] Voronoi cells ([Example](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/))
  
  
  ### Related Articles:
